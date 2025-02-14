@@ -15,7 +15,7 @@ const FILTER_NAMES = Object.keys(FILTER_MAP);
 
 function App() {
   const [todos, setTodos] = useLocalStorage("todos", []);
-  const [completedAll, setCompletedAll] = useState(false);
+  // const [completedAll, setCompletedAll] = useState(false);
   const [filter, setFilter] = useState("All");
   const [currentlyEditing, setCurrentlyEditing] = useState("");
 

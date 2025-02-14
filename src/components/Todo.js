@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { FaTrash, FaEdit } from "react-icons/fa";
+import { FaTrash} from "react-icons/fa";
 import { MdOutlineEdit } from "react-icons/md";
 
 function Todo({ text, id, completed, deleteTodo, toggleTodo, updateTodo, isEditing, setCurrentlyEditing }) {
